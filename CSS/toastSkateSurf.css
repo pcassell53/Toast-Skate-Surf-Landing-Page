@@ -1,6 +1,37 @@
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif, ;
 }
+
+.larger { font-size: 120%; }
+
+.lead { font-size: 1.75em; }
+
+.heading-lg { font-size: 3.5rem; }
+
+.text-capitalize { text-transform: capitalize; }
+
+.text-white { color: #fff; }
+
+.img-background {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding-top: 55%;
+}
+
+/*.btn { padding: 1em 0.5em; }
+.btn-lg { padding: 1.5em 1em; }*/
+
+.btn-main, .bg-main { background: #ee254f; }
+.btn-main:hover { background: #D50C36; }
+
+.btn-cta, .bg-cta { background: #2076ff; }
+.btn-cta:hover { background: #075DE6; }
+
+.btn-alt1, .bg-alt1 { background: #FFB627; }
+.btn-alt1:hover { background: #E69D0E; }
+
+.img-background.img-cover { background-size: cover; }
+
 
 .socialmediaBarFacebook {
     color: #fff;
@@ -139,14 +170,48 @@ body {
 }
 
 a.footerLinks {
-	color: #CCCCCC!important;
-	transition: 0.3s;
+    color: #CCCCCC !important;
+    transition: 0.3s;
 }
 
 a.footerLinks:hover {
-    color: #ffffff!important;
+    color: #ffffff !important;
     text-decoration: none;
 }
+
 .text-bold {
-	font-weight: bold;
+    font-weight: bold;
+}
+
+.larger {
+    font-size: 120%;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/*Slick JS CSS*/
+.wrapperCustomSlick {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.carouselCustomSlick {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.wrapperCustomSlick .slick-dots li button:before {
+    font-size: 20px;
+    color: white;
 }
